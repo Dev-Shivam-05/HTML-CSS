@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.main {
+    height: 50px;
+    width: 100%;
+    background-color: black;   
+}
+/* nav{
+    background-color: aliceblue;
+    padding-top: 10px;
+} */
+/* h1{
+    font-size: 28px;
+    color: aliceblue;
+    background-color: orange;
+    display: inline;
+    
+}
+h2{
+    font-size: 24px;
+    color: aliceblue;
+    background-color: yellow;
+    float: right;
+    display: inline;
+    padding: 10px;
+}
+section{
+    font-size: large;
+    margin: 150px 0px 0px 120px;
+}
+strong{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 150px 0px 0px 120px;
+}
+.cir{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    float: right;
+    margin: 150px 0px 0px 200px;
+    background-color: orange;
+    border: 4px solid black;
+} */ 
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 20%;
+    border: 50px double black;
+    border-bottom: 50px double yellow;
+    border-left: 50px double red;
+    border-right: 50px double green;
+    /* border-left: transparent;
+    border-right: transparent; */
+    /* border-bottom: transparent; */
+    border-radius: 0%;
+
+    animation: demo;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1000;
+}
+
+@keyframes demo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
